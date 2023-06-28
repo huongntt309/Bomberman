@@ -137,6 +137,7 @@ public class BombermanGame extends Application implements Initializable {
     TranslateTransition translate4 = new TranslateTransition();
     TranslateTransition translate5 = new TranslateTransition();
     TranslateTransition translate6 = new TranslateTransition();
+    
     FadeTransition fade1 = new FadeTransition();
     FadeTransition fade2 = new FadeTransition();
     FadeTransition fade3 = new FadeTransition();
