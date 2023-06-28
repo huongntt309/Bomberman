@@ -142,7 +142,7 @@ public class BombermanGame extends Application implements Initializable {
     FadeTransition fade3 = new FadeTransition();
 
     @Override
-    public void start(Stage stage) throws SQLException {
+    public void start(Stage stage) throws SQLException{
         initGamePlay();
         SettingController.playSFX(SettingController.SFXMODE_GAME_START);
         // Tạo Canvas
