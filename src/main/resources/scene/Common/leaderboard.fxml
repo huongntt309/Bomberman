@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="600" prefWidth="800.0" style="-fx-background-color: #412c17;" styleClass="bg" stylesheets="@../../css/Background.css" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1" fx:controller="bomberman.Controller.Common.LeaderboardController">
+    <children>
+
+        <Label layoutX="318.0" layoutY="21.0" prefHeight="39.0" prefWidth="170.0" text="LEADERBOARD">
+            <font>
+                <Font name="Berlin Sans FB Demi Bold" size="23.0" />
+            </font>
+        </Label>
+        <Button fx:id="backButton" layoutX="342.0" layoutY="507.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" mnemonicParsing="false" onAction="#backButtonOnAction" prefHeight="56.0" prefWidth="122.0" styleClass="btn" stylesheets="@../../css/Button.css" text="Back">
+            <font>
+                <Font name="Berlin Sans FB Demi Bold" size="23.0" />
+            </font>
+        </Button>
+        <TableView fx:id="rankingDailyTableView" layoutX="408.0" layoutY="175.0" prefHeight="231.0" prefWidth="314.0" stylesheets="@../../css/TableView.css">
+            <columns>
+            <TableColumn fx:id="userAvatarDailyColumn" editable="false" maxWidth="250.0" minWidth="70.0" prefWidth="70.0" resizable="false" sortable="false" />
+                <TableColumn fx:id="usernameDailyColumn" editable="false" maxWidth="250.0" minWidth="50.0" prefWidth="130.4000244140625" resizable="false" sortable="false" text="Full name" />
+                <TableColumn fx:id="highestScoreDailyColumn" editable="false" maxWidth="250.0" minWidth="50.0" prefWidth="100.0" resizable="false" sortable="false" text="Highest Score" />
+            </columns>
+        </TableView>
+        <TableView fx:id="rankingAllTimeTableView" layoutX="77.0" layoutY="175.0" prefHeight="231.0" prefWidth="306.0" stylesheets="@../../css/TableView.css">
+            <columns>
+            <TableColumn fx:id="userAvatarAllTimeColumn" editable="false" maxWidth="250.0" minWidth="70.0" prefWidth="70.0" resizable="false" sortable="false" />
+                <TableColumn fx:id="usernameAllTimeColumn" editable="false" maxWidth="289.5999755859375" minWidth="50.0" prefWidth="132.79998779296875" resizable="false" sortable="false" text="Full name" />
+                <TableColumn fx:id="highestScoreAllTimeColumn" editable="false" maxWidth="286.4000244140625" minWidth="50.0" prefWidth="84.79998779296875" resizable="false" sortable="false" text="Highest Score" />
+            </columns>
+        </TableView>
+      <Label alignment="CENTER" contentDisplay="CENTER" layoutX="77.0" layoutY="135.0" prefHeight="39.0" prefWidth="170.0" text="ALL TIME">
+         <font>
+            <Font name="Berlin Sans FB Demi Bold" size="23.0" />
+         </font>
+      </Label>
+      <Label alignment="CENTER" contentDisplay="CENTER" layoutX="408.0" layoutY="135.0" prefHeight="39.0" prefWidth="170.0" text="DAILY">
+         <font>
+            <Font name="Berlin Sans FB Demi Bold" size="23.0" />
+         </font>
+      </Label>
+      <Button fx:id="detailButtonAllTime" layoutX="332.0" layoutY="127.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" mnemonicParsing="false" onAction="#detailButtonAllTimeOnAction" prefHeight="40.0" prefWidth="37.0" styleClass="btn_detail" stylesheets="@../../css/Button.css">
+         <font>
+            <Font name="Berlin Sans FB Demi Bold" size="11.0" />
+         </font>
+      </Button>
+      <Button fx:id="detailButtonDaily" layoutX="672.0" layoutY="127.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" mnemonicParsing="false" onAction="#detailButtonDailyOnAction" prefHeight="40.0" prefWidth="37.0" styleClass="btn_detail" stylesheets="@../../css/Button.css">
+         <font>
+            <Font name="Berlin Sans FB Demi Bold" size="11.0" />
+         </font>
+      </Button>
+
+    </children>
+</AnchorPane>

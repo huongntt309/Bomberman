@@ -1,0 +1,119 @@
+.btn {
+    -fx-background-image : url("../image/menu/common/button2.png");
+    -fx-background-repeat: stretch;
+    -fx-background-size: 100% 100%;
+    -fx-background-position: center center;
+    -fx-background-radius: 35px;
+}
+
+.btn:hover {
+    -fx-cursor: hand;
+    -fx-background-image : url("../image/menu/common/button1.png");
+}
+
+#searchButton {
+    -fx-background-image : url("../image/menu/admin/search.png");
+    -fx-background-repeat: stretch;
+    -fx-background-size: 100% 100%;
+    -fx-background-position: center center;
+    -fx-background-radius: 35px;
+}
+#searchButton:hover {
+    -fx-background-image : url("../image/menu/admin/search_hover.png");
+    -fx-cursor: hand;
+}
+#deleteButton {
+    -fx-background-image : url("../image/menu/admin/delete.png");
+    -fx-background-repeat: stretch;
+    -fx-background-size: 100% 100%;
+    -fx-background-position: center center;
+    -fx-background-radius: 35px;
+}
+#deleteButton:hover {
+    -fx-background-image : url("../image/menu/admin/delete_hover.png");
+     -fx-cursor: hand;
+}
+#detailButton {
+    -fx-background-image : url("../image/menu/admin/detail.png");
+    -fx-background-repeat: stretch;
+    -fx-background-size: 100% 100%;
+    -fx-background-position: center center;
+    -fx-background-radius: 35px;
+}
+#detailButton:hover {
+    -fx-background-image : url("../image/menu/admin/detail_hover.png");
+    -fx-cursor: hand;
+}
+.btn_detail {
+    -fx-background-image : url("../image/menu/admin/detail.png");
+    -fx-background-repeat: stretch;
+    -fx-background-size: 100% 100%;
+    -fx-background-position: center center;
+    -fx-background-radius: 35px;
+}
+.btn_detail:hover {
+   -fx-background-image : url("../image/menu/admin/detail_hover.png");
+   -fx-cursor: hand;
+}
+#quitButton:hover {
+     -fx-background-image : url("../image/menu/common/button3.png");
+     -fx-text-fill: white;
+}
+
+
+/* APPLY BTN */
+#applyButton {
+    -fx-background-image : url("../image/menu/common/accept1.png");
+}
+#applyButton:hover {
+    -fx-cursor: hand;
+    -fx-opacity: 0.7;
+}
+
+/* FOR CHARACTER CHOOSING PANE */
+.btn_char {
+    -fx-background-size: 103% 103%;
+    -fx-background-position: center center;
+    -fx-background-radius: 100px;
+    -fx-background-image : url("../char/char-icon/0-face.png");
+}
+
+.btn_char:hover  {
+     -fx-cursor: hand;
+}
+#charChoosingButton:hover {
+    -fx-cursor: default;
+    -fx-opacity: 1;
+}
+#char1Button {
+    -fx-background-image : url("../char/char-icon/1-face.png");
+}
+
+#char2Button {
+    -fx-background-image : url("../char/char-icon/2-face.png");
+}
+
+#char3Button{
+    -fx-background-image : url("../char/char-icon/3-face.png");
+}
+
+#char4Button{
+    -fx-background-image : url("../char/char-icon/4-face.png");
+}
+#char5Button {
+    -fx-background-image : url("../char/char-icon/5-face.png");
+}
+
+#char6Button {
+    -fx-background-image : url("../char/char-icon/6-face.png");
+}
+
+#char7Button{
+    -fx-background-image : url("../char/char-icon/7-face.png");
+}
+#char8Button{
+     -fx-background-image : url("../char/char-icon/8-face.png");
+ }
+#char9Button{
+     -fx-background-image : url("../char/char-icon/9-face.png");
+ }

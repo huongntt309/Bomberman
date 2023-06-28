@@ -1,0 +1,119 @@
+/*
+màu nền #e3c688
+màu viển #8e4d25 #8b4921
+màu gradient #e3c688 #8e4d25
+
+*/
+.dialog-pane{
+  -fx-border-color: #8b4921;
+  -fx-border-width: 2.0px;
+  -fx-background-color: linear-gradient(to bottom, #e3c688, #8e4d25 );
+ }
+
+/**Costumization of The Bar where the buttons are located**/
+.dialog-pane > .button-bar > .container {
+  /*-fx-background-color:#e3c688;*/
+}
+
+.dialog-pane > .content.label {
+   -fx-padding: 0.5em 0.5em 0.5em 0.5em;
+  /* -fx-background-color: #e3c688;*/
+   -fx-text-fill:black;
+   -fx-font-size:15.0px;
+}
+
+/**Costumization of DialogPane Header**/
+.dialog-pane:header .header-panel {
+   /* -fx-background-color: #e3c688;*/
+    -fx-background-color: transparent;
+}
+
+.dialog-pane:header .header-panel .label{
+  -fx-background-radius:10px;
+   -fx-background-color: transparent;
+  -fx-text-fill: white;
+  -fx-font-weight:bold;
+  -fx-font-size: 20.0px;
+  -fx-padding: 20px;
+    -fx-background-image : url("../image/menuGameLoop/slot_backdrop.png");
+      -fx-background-repeat: stretch;
+      -fx-background-size: 100% 100%;
+      -fx-background-position: center center;
+      -fx-background-radius: 35px;
+}
+
+
+/**Costumization of Buttons**/
+.dialog-pane .button{
+    -fx-background-image : url("../image/menu/common/button2.png");
+    -fx-background-repeat: stretch;
+    -fx-background-size: 100% 100%;
+    -fx-background-position: center center;
+    -fx-background-radius: 35px;
+   -fx-effect: dropshadow( three-pass-box, green, 10.0, 0.0, 0.0, 0.0);
+   -fx-cursor:hand;
+ }
+
+.dialog-pane .button:hover{
+  -fx-text-fill:black;
+  -fx-font-weight:bold;
+  -fx-cursor: hand;
+  -fx-background-image : url("../image/menu/common/button1.png");
+}
+
+dialog-pane-pass{
+  -fx-border-color: #8b4921;
+  -fx-border-width: 2.0px;
+  -fx-background-color: linear-gradient(to bottom, #e3c688, #8e4d25 );
+ }
+
+/**Costumization of The Bar where the buttons are located**/
+.dialog-pane-pass > .button-bar > .container {
+  /*-fx-background-color:#e3c688;*/
+}
+
+.dialog-pane-pass > .content.label {
+   -fx-padding: 0.5em 0.5em 0.5em 0.5em;
+  /* -fx-background-color: #e3c688;*/
+   -fx-text-fill: white;
+   -fx-font-size:15.0px;
+}
+
+/**Costumization of DialogPane Header**/
+.dialog-pane-pass:header .header-panel {
+   /* -fx-background-color: #e3c688;*/
+    -fx-background-color: transparent;
+}
+
+.dialog-pane-pass:header .header-panel .label{
+    -fx-background-radius:10px;
+    -fx-background-color: transparent;
+    -fx-text-fill: white;
+    -fx-font-weight:bold;
+    -fx-font-size: 15px;
+    -fx-padding: 20px;
+    -fx-background-image : url("../image/menuGameLoop/slot_backdrop.png");
+    -fx-background-repeat: stretch;
+    -fx-background-size: 100% 100%;
+    -fx-background-position: center center;
+    -fx-background-radius: 35px;
+}
+
+
+/**Costumization of Buttons**/
+.dialog-pane-pass .button{
+    -fx-background-image : url("../image/menu/common/button2.png");
+    -fx-background-repeat: stretch;
+    -fx-background-size: 100% 100%;
+    -fx-background-position: center center;
+    -fx-background-radius: 35px;
+   -fx-effect: dropshadow( three-pass-box, green, 10.0, 0.0, 0.0, 0.0);
+   -fx-cursor:hand;
+ }
+
+.dialog-pane-pass .button:hover{
+  -fx-text-fill:black;
+  -fx-font-weight:bold;
+  -fx-cursor: hand;
+  -fx-background-image : url("../image/menu/common/button1.png");
+}

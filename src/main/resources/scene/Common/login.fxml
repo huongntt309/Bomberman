@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.PasswordField?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.ColumnConstraints?>
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.layout.RowConstraints?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="600.0" prefWidth="800.0" styleClass="bg" stylesheets="@../../css/Background.css" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1"
+            fx:controller="bomberman.Controller.Common.LoginController">
+<children>
+    <Label alignment="CENTER" layoutX="285.0" layoutY="24.0" prefHeight="30.0" prefWidth="230.0" text="BOMBERMAN">
+        <font>
+            <Font name="Berlin Sans FB Demi Bold" size="33.0" />
+        </font>
+    </Label>
+
+    <Label fx:id="logInMessageLabel" alignment="CENTER" layoutX="247.0" layoutY="133.0" prefHeight="18.0" prefWidth="314.0" textFill="BLACK">
+        <font>
+            <Font name="Berlin Sans FB Demi Bold" size="15.0" />
+        </font>
+    </Label>
+    <GridPane layoutX="223.0" layoutY="172.0" prefHeight="100.0" prefWidth="338.0">
+        <columnConstraints>
+            <ColumnConstraints hgrow="SOMETIMES" maxWidth="159.99999237060547" minWidth="10.0" prefWidth="117.4" />
+            <ColumnConstraints hgrow="SOMETIMES" maxWidth="202.20000000000002" minWidth="10.0" prefWidth="202.20000000000002" />
+        </columnConstraints>
+        <rowConstraints>
+            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+            <RowConstraints maxHeight="44.19998779296875" minHeight="10.0" prefHeight="22.866659545898436" vgrow="SOMETIMES" />
+        </rowConstraints>
+        <children>
+            <Label alignment="CENTER" prefHeight="18.0" prefWidth="203.0" text="Username" GridPane.halignment="RIGHT" GridPane.valignment="CENTER">
+                <font>
+                    <Font name="Berlin Sans FB Demi Bold" size="21.0" />
+                </font>
+            </Label>
+            <TextField fx:id="usernameTextField" prefHeight="40.0" prefWidth="121.0" promptText="Username" GridPane.columnIndex="1">
+                <font>
+                    <Font name="Berlin Sans FB Demi Bold" size="16.0" />
+                </font>
+            </TextField>
+
+            <Label alignment="CENTER" prefHeight="18.0" prefWidth="203.0" text="Password" GridPane.halignment="RIGHT" GridPane.rowIndex="1" GridPane.valignment="CENTER">
+                <font>
+                    <Font name="Berlin Sans FB Demi Bold" size="21.0" />
+                </font>
+            </Label>
+            <PasswordField fx:id="passwordPasswordField" prefHeight="40.0" prefWidth="200.0" promptText="Password" GridPane.columnIndex="1" GridPane.rowIndex="1">
+                <font>
+                    <Font name="Berlin Sans FB Demi Bold" size="16.0" />
+                </font>
+            </PasswordField>
+        </children>
+    </GridPane>
+    <Button fx:id="logInButton" layoutX="230.0" layoutY="300.0" mnemonicParsing="false" onAction="#logInButtonOnAction" prefHeight="71.0" prefWidth="338.0" styleClass="btn" stylesheets="@../../css/Button.css" text="Log In" textFill="BLACK">
+        <font>
+            <Font name="Berlin Sans FB Demi Bold" size="35.0" />
+        </font>
+    </Button>
+
+    <Button fx:id="signUpButton" layoutX="421.0" layoutY="409.0" mnemonicParsing="false" onAction="#signUpButtonOnAction" prefHeight="54.0" prefWidth="146.0" styleClass="btn" stylesheets="@../../css/Button.css" text="Sign Up" textFill="BLACK" underline="true">
+        <font>
+            <Font name="Berlin Sans FB Demi Bold" size="24.0" />
+        </font>
+    </Button>
+    <Button fx:id="quitButton" layoutX="230.0" layoutY="409.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="30.0" mnemonicParsing="false" onAction="#quitButtonOnAction" prefHeight="54.0" prefWidth="146.0"
+            styleClass="btn" stylesheets="@../../css/Button.css" text="QUIT" textFill="BLACK">
+        <font>
+            <Font name="Berlin Sans FB Demi Bold" size="24.0" />
+        </font></Button>
+</children>
+</AnchorPane>

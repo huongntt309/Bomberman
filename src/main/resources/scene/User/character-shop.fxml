@@ -1,0 +1,208 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.ColumnConstraints?>
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.layout.RowConstraints?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="600" prefWidth="800.0" style="-fx-background-color: #412c17;" styleClass="bg" stylesheets="@../../css/Background.css" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1" fx:controller="bomberman.Controller.User.CharacterShopController">
+    <children>
+
+        <Label alignment="CENTER" layoutX="246.0" prefHeight="79.0" prefWidth="308.0" text="Shop">
+            <font>
+                <Font name="Berlin Sans FB Demi Bold" size="41.0" />
+            </font>
+        </Label>
+        <GridPane layoutX="164.0" layoutY="424.0" prefHeight="79.0" prefWidth="532.0">
+            <columnConstraints>
+            <ColumnConstraints hgrow="SOMETIMES" maxWidth="232.60003662109375" minWidth="10.0" prefWidth="127.19998779296876" />
+            <ColumnConstraints hgrow="SOMETIMES" maxWidth="407.2" minWidth="10.0" prefWidth="202.4000244140625" />
+                <ColumnConstraints hgrow="SOMETIMES" maxWidth="407.2" minWidth="10.0" prefWidth="219.99997558593742" />
+            </columnConstraints>
+            <rowConstraints>
+                <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+            </rowConstraints>
+        </GridPane>
+      <GridPane layoutX="401.0" layoutY="112.0" prefHeight="300.0" prefWidth="300.0">
+        <columnConstraints>
+          <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+          <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+            <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+        </columnConstraints>
+        <rowConstraints>
+          <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+          <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+        </rowConstraints>
+         <children>
+            <Button fx:id="char1Button" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" mnemonicParsing="false" onAction="#char1ButtonOnAction" onMouseEntered="#char1ButtonOnActionMouseEnter" onMouseExited="#char1ButtonOnActionMouseExit" opacity="0.2" prefHeight="90.0" prefWidth="90.0" styleClass="btn_char" stylesheets="@../../css/Button.css" GridPane.halignment="CENTER" GridPane.valignment="CENTER">
+               <font>
+                  <Font name="Berlin Sans FB Demi Bold" size="31.0" />
+               </font>
+            </Button>
+            <Button fx:id="char2Button" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" mnemonicParsing="false" onAction="#char2ButtonOnAction" onMouseEntered="#char2ButtonOnActionMouseEnter" onMouseExited="#char2ButtonOnActionMouseExit" opacity="0.2" prefHeight="90.0" prefWidth="90.0" styleClass="btn_char" stylesheets="@../../css/Button.css" GridPane.columnIndex="1" GridPane.halignment="CENTER" GridPane.valignment="CENTER">
+               <font>
+                  <Font name="Berlin Sans FB Demi Bold" size="31.0" />
+               </font>
+            </Button>
+            <Button fx:id="char3Button" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" mnemonicParsing="false" onAction="#char3ButtonOnAction" onMouseEntered="#char3ButtonOnActionMouseEnter" onMouseExited="#char3ButtonOnActionMouseExit" opacity="0.2" prefHeight="90.0" prefWidth="90.0" styleClass="btn_char" stylesheets="@../../css/Button.css" GridPane.columnIndex="2" GridPane.halignment="CENTER" GridPane.valignment="CENTER">
+               <font>
+                  <Font name="Berlin Sans FB Demi Bold" size="31.0" />
+               </font>
+            </Button>
+            <Button fx:id="char4Button" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" mnemonicParsing="false" onAction="#char4ButtonOnAction" onMouseEntered="#char4ButtonOnActionMouseEnter" onMouseExited="#char4ButtonOnActionMouseExit" opacity="0.2" prefHeight="90.0" prefWidth="90.0" styleClass="btn_char" stylesheets="@../../css/Button.css" GridPane.halignment="CENTER" GridPane.rowIndex="1" GridPane.valignment="CENTER">
+               <font>
+                  <Font name="Berlin Sans FB Demi Bold" size="31.0" />
+               </font>
+            </Button>
+            <Button fx:id="char5Button" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" mnemonicParsing="false" onAction="#char5ButtonOnAction" onMouseEntered="#char5ButtonOnActionMouseEnter" onMouseExited="#char5ButtonOnActionMouseExit" opacity="0.2" prefHeight="90.0" prefWidth="90.0" styleClass="btn_char" stylesheets="@../../css/Button.css" GridPane.columnIndex="1" GridPane.halignment="CENTER" GridPane.rowIndex="1" GridPane.valignment="CENTER">
+               <font>
+                  <Font name="Berlin Sans FB Demi Bold" size="31.0" />
+               </font>
+            </Button>
+            <Button fx:id="char6Button" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" mnemonicParsing="false" onAction="#char6ButtonOnAction" onMouseEntered="#char6ButtonOnActionMouseEnter" onMouseExited="#char6ButtonOnActionMouseExit" opacity="0.2" prefHeight="90.0" prefWidth="90.0" styleClass="btn_char" stylesheets="@../../css/Button.css" GridPane.columnIndex="2" GridPane.halignment="CENTER" GridPane.rowIndex="1" GridPane.valignment="CENTER">
+               <font>
+                  <Font name="Berlin Sans FB Demi Bold" size="31.0" />
+               </font>
+            </Button>
+            <Button fx:id="char7Button" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" mnemonicParsing="false" onAction="#char7ButtonOnAction" onMouseEntered="#char7ButtonOnActionMouseEnter" onMouseExited="#char7ButtonOnActionMouseExit" opacity="0.2" prefHeight="90.0" prefWidth="90.0" styleClass="btn_char" stylesheets="@../../css/Button.css" GridPane.halignment="CENTER" GridPane.rowIndex="2" GridPane.valignment="CENTER">
+               <font>
+                  <Font name="Berlin Sans FB Demi Bold" size="31.0" />
+               </font>
+            </Button>
+            <Button fx:id="char8Button" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" mnemonicParsing="false" onAction="#char8ButtonOnAction" onMouseEntered="#char8ButtonOnActionMouseEnter" onMouseExited="#char8ButtonOnActionMouseExit" opacity="0.2" prefHeight="90.0" prefWidth="90.0" styleClass="btn_char" stylesheets="@../../css/Button.css" GridPane.columnIndex="1" GridPane.halignment="CENTER" GridPane.rowIndex="2" GridPane.valignment="CENTER">
+               <font>
+                  <Font name="Berlin Sans FB Demi Bold" size="31.0" />
+               </font>
+            </Button>
+            <Button fx:id="char9Button" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" mnemonicParsing="false" onAction="#char9ButtonOnAction" onMouseEntered="#char9ButtonOnActionMouseEnter" onMouseExited="#char9ButtonOnActionMouseExit" opacity="0.2" prefHeight="90.0" prefWidth="90.0" styleClass="btn_char" stylesheets="@../../css/Button.css" GridPane.columnIndex="2" GridPane.halignment="CENTER" GridPane.rowIndex="2" GridPane.valignment="CENTER">
+               <font>
+                  <Font name="Berlin Sans FB Demi Bold" size="31.0" />
+               </font>
+            </Button>
+            <ImageView fx:id="lock4Image" disable="true" fitHeight="37.0" fitWidth="35.0" opacity="0.5" pickOnBounds="true" preserveRatio="true" GridPane.halignment="CENTER" GridPane.rowIndex="1" GridPane.valignment="CENTER">
+               <image>
+                  <Image url="@../../image/menu/shop/lockIcon.png" />
+               </image>
+            </ImageView>
+            <ImageView fx:id="lock1Image" disable="true" fitHeight="37.0" fitWidth="35.0" opacity="0.5" pickOnBounds="true" preserveRatio="true" GridPane.halignment="CENTER" GridPane.valignment="CENTER">
+               <image>
+                  <Image url="@../../image/menu/shop/lockIcon.png" />
+               </image>
+            </ImageView>
+            <ImageView fx:id="lock2Image" disable="true" fitHeight="37.0" fitWidth="35.0" layoutX="10.0" layoutY="43.0" opacity="0.5" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="1" GridPane.halignment="CENTER" GridPane.valignment="CENTER">
+               <image>
+                  <Image url="@../../image/menu/shop/lockIcon.png" />
+               </image>
+            </ImageView>
+            <ImageView fx:id="lock3Image" disable="true" fitHeight="37.0" fitWidth="35.0" layoutX="110.0" layoutY="43.0" opacity="0.5" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="2" GridPane.halignment="CENTER" GridPane.valignment="CENTER">
+               <image>
+                  <Image url="@../../image/menu/shop/lockIcon.png" />
+               </image>
+            </ImageView>
+            <ImageView fx:id="lock5Image" disable="true" fitHeight="37.0" fitWidth="35.0" layoutX="210.0" layoutY="43.0" opacity="0.5" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="1" GridPane.halignment="CENTER" GridPane.rowIndex="1" GridPane.valignment="CENTER">
+               <image>
+                  <Image url="@../../image/menu/shop/lockIcon.png" />
+               </image>
+            </ImageView>
+            <ImageView fx:id="lock6Image" disable="true" fitHeight="37.0" fitWidth="35.0" layoutX="110.0" layoutY="143.0" opacity="0.5" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="2" GridPane.halignment="CENTER" GridPane.rowIndex="1" GridPane.valignment="CENTER">
+               <image>
+                  <Image url="@../../image/menu/shop/lockIcon.png" />
+               </image>
+            </ImageView>
+            <ImageView fx:id="lock7Image" disable="true" fitHeight="37.0" fitWidth="35.0" layoutX="210.0" layoutY="143.0" opacity="0.5" pickOnBounds="true" preserveRatio="true" GridPane.halignment="CENTER" GridPane.rowIndex="2" GridPane.valignment="CENTER">
+               <image>
+                  <Image url="@../../image/menu/shop/lockIcon.png" />
+               </image>
+            </ImageView>
+            <ImageView fx:id="lock8Image" disable="true" fitHeight="37.0" fitWidth="35.0" layoutX="10.0" layoutY="244.0" opacity="0.5" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="1" GridPane.halignment="CENTER" GridPane.rowIndex="2" GridPane.valignment="CENTER">
+               <image>
+                  <Image url="@../../image/menu/shop/lockIcon.png" />
+               </image>
+            </ImageView>
+            <ImageView fx:id="lock9Image" disable="true" fitHeight="37.0" fitWidth="35.0" layoutX="110.0" layoutY="244.0" opacity="0.5" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="2" GridPane.halignment="CENTER" GridPane.rowIndex="2" GridPane.valignment="CENTER">
+               <image>
+                  <Image url="@../../image/menu/shop/lockIcon.png" />
+               </image>
+            </ImageView>
+         </children>
+      </GridPane>
+      <GridPane layoutX="241.0" layoutY="219.0" prefHeight="149.0" prefWidth="115.0">
+        <columnConstraints>
+            <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+        </columnConstraints>
+        <rowConstraints>
+          <RowConstraints maxHeight="116.59998168945313" minHeight="10.0" prefHeight="45.40001220703125" vgrow="SOMETIMES" />
+          <RowConstraints maxHeight="79.39999999999999" minHeight="10.0" prefHeight="53.20000000000001" vgrow="SOMETIMES" />
+          <RowConstraints maxHeight="155.99997558593748" minHeight="10.0" prefHeight="58.0" vgrow="SOMETIMES" />
+        </rowConstraints>
+         <children>
+            <Label fx:id="charPriceLabel" layoutX="10.0" layoutY="132.0" prefHeight="30.0" prefWidth="146.0" text="Price" GridPane.rowIndex="1">
+               <font>
+                  <Font name="Berlin Sans FB Demi Bold" size="21.0" />
+               </font>
+            </Label>
+         </children>
+      </GridPane>
+      <Button fx:id="charChoosingButton" layoutX="109.0" layoutY="228.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" mnemonicParsing="false" prefHeight="71.0" prefWidth="71.0" styleClass="btn_char" stylesheets="@../../css/Button.css">
+         <font>
+            <Font name="Berlin Sans FB Demi Bold" size="31.0" />
+         </font>
+      </Button>
+      <Label fx:id="userCoinLabel" layoutX="251.0" layoutY="124.0" prefHeight="34.0" prefWidth="108.0" text="coin" textFill="#2d0bb7">
+         <font>
+            <Font name="Berlin Sans FB Demi Bold" size="21.0" />
+         </font>
+      </Label>
+      <Label alignment="CENTER" contentDisplay="CENTER" layoutX="106.0" layoutY="124.0" prefHeight="34.0" prefWidth="137.0" text="You have:   $" textFill="#2d0bb7">
+         <font>
+            <Font name="Berlin Sans FB Demi Bold" size="21.0" />
+         </font>
+      </Label>
+      <Button fx:id="buyButton" layoutX="103.0" layoutY="341.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" mnemonicParsing="false" onAction="#buyButtonOnAction" prefHeight="54.0" prefWidth="209.0" styleClass="btn" stylesheets="@../../css/Button.css" text="BUY" textFill="#079c1b" visible="false">
+         <font>
+            <Font name="Berlin Sans FB Demi Bold" size="25.0" />
+         </font>
+      </Button>
+      <Label fx:id="notiLabel" layoutX="110.0" layoutY="164.0" prefHeight="34.0" prefWidth="231.0" textFill="#dc0b0b">
+         <font>
+            <Font name="Berlin Sans FB Demi Bold" size="15.0" />
+         </font>
+      </Label>
+      <Button fx:id="sellButton" layoutX="103.0" layoutY="341.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" mnemonicParsing="false" onAction="#sellButtonOnAction" prefHeight="54.0" prefWidth="209.0" styleClass="btn" stylesheets="@../../css/Button.css" text="SELL" textFill="#d90505" visible="false">
+         <font>
+            <Font name="Berlin Sans FB Demi Bold" size="25.0" />
+         </font>
+      </Button>
+      <Button fx:id="backButton" layoutX="347.0" layoutY="510.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" mnemonicParsing="false" onAction="#backButtonOnAction" prefHeight="54.0" prefWidth="108.0" styleClass="btn" stylesheets="@../../css/Button.css" text="Back">
+         <font>
+            <Font name="Berlin Sans FB Demi Bold" size="25.0" />
+         </font>
+      </Button>
+      <Label alignment="CENTER" contentDisplay="CENTER" layoutX="213.0" layoutY="269.0" prefHeight="34.0" prefWidth="35.0" text="\$">
+         <font>
+            <Font name="Berlin Sans FB Demi Bold" size="21.0" />
+         </font>
+      </Label>
+      <Label fx:id="charNameLabel" layoutX="213.0" layoutY="231.0" prefHeight="33.0" prefWidth="146.0" text="Name">
+         <font>
+            <Font name="Berlin Sans FB Demi Bold" size="21.0" />
+         </font>
+      </Label>
+      <ImageView fitHeight="30.0" fitWidth="35.0" layoutX="215.0" layoutY="127.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../image/menu/shop/dollar.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="30.0" fitWidth="30.0" layoutX="209.0" layoutY="272.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../image/menu/shop/dollar.png" />
+         </image>
+      </ImageView>
+    </children>
+</AnchorPane>

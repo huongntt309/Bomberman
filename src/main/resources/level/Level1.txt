@@ -1,0 +1,68 @@
+1 17 25
+#########################
+#p     b    *f *    * *d#
+# # # #*# # #*#*#*#*#*# #
+#  x*          *    * * #
+# # # # # # # # #*#*# # #
+#s  k                *  #
+# # # # # # # # # # # # #
+#*  *   *      *        #
+# # # # #*#*#*# # # # # #
+#*    **  *       *     #
+# #*# # # #*# # # # # # #
+#           *   *  *    #
+# #*# # # #*# # # # # # #
+#         *   *  *  4   #
+# #*# # # #*# # # # # # #
+# 3        *   *  *     #
+#########################
+
+// map 1 has items : speed, bombsize, bomb up
+u - Score up Item
+b - Bomb Item
+f - BombSize Item
+s - Speed Item
+d - Door Item - or change to gate
+k - Key Item
+1 17 25
+#########################
+#p                 *    #
+# # # #*# # #*#*#*#*#*# #
+#         ***  *  k * * #
+# # # # # #*# # #*#*# # #
+#1    s      **  *  *   #
+# # # # # # #*# #*# # # #
+#*  *   *      *        #
+# # # # #*#*#*# # # # # #
+#*    **  *       *     #
+# #*# # # #*# # # # # # #
+# 2         *   *  *    #
+# #*# # # #*# # # # # # #
+# 2      1  *   *  *    #
+# # # # # # #*# #*# # # #
+#*  *   *      *       d#
+#########################
+
+
+Mô tả cấu trúc tệp cấu hình màn chơi:
+1/ Dòng đầu tiên bao gồm 3 số nguyên L, R, C:
+L - số thứ tự màn chơi
+R - số hàng của bản đồ
+C - số cột của bản đồ
+
+2/ R dòng tiếp theo, mỗi dòng có C kí tự. Mỗi kí tự đại diện cho một đối tượng trên bản đồ:
+Tiles:
+# - Wall
+* - Brick
+x - Portal
+
+
+
+
+Items:
+b - Bomb Item
+f - BombSize Item
+s - Speed Item
+d - Door Item - or change to gate
+k - Key Item
+Kí tự khác các kí tự trên - Grass
