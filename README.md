@@ -1,5 +1,10 @@
 # Bomberman 
 A bomberman game for OOP and DBMS class.
+## Video Demo
+### Video Demo Player mode
+[![Watch the video](https://img.youtube.com/vi/ZAT_OwukIUE/0.jpg)](https://www.youtube.com/watch?v=ZAT_OwukIUE)
+### Video Demo Admin mode
+[![Watch the video](https://img.youtube.com/vi/0BBDEAYBnkw/0.jpg)](https://www.youtube.com/watch?v=0BBDEAYBnkw)
 
 ## Technology 
 - UI: JavaFX + SceneBuilder
